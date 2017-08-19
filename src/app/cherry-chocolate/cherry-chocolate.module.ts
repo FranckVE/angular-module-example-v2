@@ -6,6 +6,9 @@ import { CherryChocolateComponent } from './cherry-chocolate.component';
   imports: [
     CommonModule
   ],
+  exports: [
+    CherryChocolateComponent
+  ],
   declarations: [CherryChocolateComponent]
 })
 export class CherryChocolateModule { }
