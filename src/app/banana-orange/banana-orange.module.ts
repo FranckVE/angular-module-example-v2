@@ -6,6 +6,9 @@ import { BananaOrangeComponent } from './banana-orange.component';
   imports: [
     CommonModule
   ],
+  exports: [
+    BananaOrangeComponent
+  ],
   declarations: [BananaOrangeComponent]
 })
 export class BananaOrangeModule { }
