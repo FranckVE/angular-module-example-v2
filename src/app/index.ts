@@ -14,6 +14,7 @@ export * from './banana-orange/banana-orange.module';
     BananaOrangeComponent,
   ],
   exports: [
+    BananaOrangeModule,
     BananaOrangeComponent,
   ]
 })
