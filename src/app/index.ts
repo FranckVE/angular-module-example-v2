@@ -4,7 +4,7 @@ import { BananaOrangeComponent } from './banana-orange/banana-orange.component';
 import {BananaOrangeModule} from './banana-orange/banana-orange.module';
 
 // export * from './banana-orange/banana-orange.component';
-// export * from './banana-orange/banana-orange.module';
+export * from './banana-orange/banana-orange.module';
 
 @NgModule({
   imports: [
