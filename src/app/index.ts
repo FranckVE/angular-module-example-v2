@@ -1,9 +1,8 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BananaOrangeComponent } from './banana-orange/banana-orange.component';
+// import { BananaOrangeComponent } from './banana-orange/banana-orange.component';
 import {BananaOrangeModule} from './banana-orange/banana-orange.module';
 
-// export * from './banana-orange/banana-orange.component';
 export * from './banana-orange/banana-orange.module';
 
 @NgModule({
@@ -11,11 +10,11 @@ export * from './banana-orange/banana-orange.module';
     CommonModule
   ],
   declarations: [
-    BananaOrangeComponent,
+    // BananaOrangeComponent,
   ],
   exports: [
     BananaOrangeModule,
-    BananaOrangeComponent,
+    // BananaOrangeComponent,
   ]
 })
 export class AppModule {
